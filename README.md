@@ -1,7 +1,7 @@
-[Twitter analytics](https://github.com/pinceladasdaweb/Twitter-analytics)
+Twitter analytics
 =================
 
-Tracking Twitter Buttons in Google Analytics
+Tracking Twitter Buttons in Google Analytics. See an example in action [here](http://www.pinceladasdaweb.com.br/blog/uploads/twitter-track-events/)
 
 ##Usage
 
