@@ -13,7 +13,7 @@ var TrackTwitter = function () {
     'use strict';
 
     var analytics = function (eventType, label) {
-        return _gaq.push(['_trackEvent', 'Twitter Intents', eventType, label]);
+        return _gaq.push(['_trackSocial', 'Twitter Intents', eventType, label]);
     };
 
     var clickEvent = function (e) {
@@ -37,7 +37,7 @@ var TrackTwitter = function () {
     var favoriteEvent = function (e) {
         if (!e) return;
         var label = "Favorite";
-        _gaq.push(['_trackEvent', 'Twitter Intents', e.type, label]);
+        _gaq.push(['_trackSocial', 'Twitter Intents', e.type, label]);
     };
 
     var followEvent = function (e) {
